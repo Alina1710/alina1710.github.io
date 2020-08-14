@@ -141,6 +141,9 @@
 .blog-icons img:nth-child(1) {
     margin-right: 24px;
 }
+.blog-icons a img:hover {
+    filter: brightness(80%);
+}
 .blog-item-img {
     padding: 0;
     width: 100%;

@@ -27,15 +27,22 @@
         display: none;
     }
 }
+.header-nav ul li {
+    margin-right: 44px;
+}
+.header-nav ul li:nth-child(5) {
+    margin-right: 0;
+}
 .header-nav ul a {
     font-family: 'Roboto-Bold';
     font-size: 14px;
     color: #777777;
     text-transform: uppercase;
-    margin-right: 44px;
     position: relative;
 }
-
+.header-nav ul li:nth-last-child() a {
+    margin-right: 0;
+}
 .header-nav ul a:hover {
     color: black;
 }

@@ -67,7 +67,7 @@
     margin-left: 2%;
     margin-top: -5px;
     @media screen and(max-width: 520px) {
-        margin-left: 1%;
+        display: none;
     }
 }
 .main-nav ul li:last-child {

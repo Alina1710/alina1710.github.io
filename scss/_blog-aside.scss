@@ -40,6 +40,9 @@
         left: 83%;
     }
 }
+.blog-search-icons:hover {
+    background-color: black;
+}
 .widjet-title {
     width: 100%;
     background-color: #ebebeb;
@@ -91,6 +94,9 @@
 .aside-posts-img {
     margin-right: 10px;
 }
+.aside-posts-img a img:hover {
+    filter: brightness(80%);
+}
 .aside-posts-item:nth-child(4) {
     margin: 0;
 }
@@ -119,6 +125,7 @@
     flex-wrap: wrap;
     padding: 35px 20px 30px 20px;
     background-color: #ffffff;
+    cursor: pointer;
     @media screen and(max-width:1400px) {
         padding: 35px 15px 30px 15px;
     }
@@ -157,6 +164,9 @@
 }
 .aside-instagram-item img {
     width: 100%;
+}
+.aside-instagram-item img:hover {
+    filter: brightness(80%);
 }
 @media screen and(min-width: 1600px) {
     .aside-instagram-item {
